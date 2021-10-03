@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.texto1{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center;  font-size:16px; text-align:center;line-height:23px;}
+	
+	.texto2{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; font-size:26px; text-align:center;  line-height:29px;}
+	
+	.texto3{font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; font-size:15px; text-align:center; line-height:29px;}
+	
+	#tudo{
+		width:100%; height:100; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px;}	
+		
+	.linhas {
+		width:100%; height:auto; clear:both; display:block;}
+		
+	.linhacentro{
+		width:800px; height:auto; min-height:4px; clear:both; display:block; overflow:hidden; float:center; margin-left:auto; margin-right:auto; }	
+		
+	.espaco{
+		float:left; display:block; font-family:"erp"; text-align:center; font-family:"erp"; font-size:16px; text-align:center;}	
+		
+	inputs{
+		width:151px; height:21px; float:left;}	
+		
+
+	
+	.invalid{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center;font-size:16px; text-align:center; width:800px; height:auto; margin-right:auto; margin-left:auto; float:center; color:#F90;
+	 font-weight:bold; line-height:30px;}
+	 #invalid{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; font-size:16px; text-align:center; width:800px; height:auto; margin-right:auto; margin-left:auto; float:center; color:#F90;
+	 font-weight:bold; line-height:30px;}
+	 
+	div.input{
+		width:250px; height:120px; float:center; margin-left:auto; margin-right:auto; display:block; overflow:hidden;}
+		
+	div.esqueceu{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; font-size:16px; text-align:center; width:800px; height:20px; color:#F90;
+	 font-weight:bold; line-height:20px;}	
+	 
+#midiamixtopo{
+	font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#F90; font-weight:bold; background-color:#CCC;}
+	.escritasabaixo{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; font-weight:bold;}
+	.botaoacao{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666; font-weight:bold; text-decoration:none;}	 
+	
+	
+/* botoes menus principais */
+
+a.itensmenu{
+	font-family:Arial, Helvetica, sans-serif; color:#666; font-size:16px; text-decoration:none;}
+a.itensmenu:hover{
+	font-family:Arial, Helvetica, sans-serif; color:#F00; font-size:16px;text-decoration:underline;}
+	a.itensmenu:link{
+	font-family:Arial, Helvetica, sans-serif; color:#666; font-size:16px;text-decoration:none;}
+	a.itensmenu:visited{
+	font-family:Arial, Helvetica, sans-serif; color:#666; font-size:16px; text-decoration:none;}
+	
