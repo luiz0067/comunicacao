@@ -1,0 +1,581 @@
+@charset "UTF-8";
+/* COMUNICACAO VISUAL*/
+
+
+/* estruturacao da pagina */
+
+div.content{
+	width:1150px; height:auto; min-height:1056px; float:center; margin-left:auto; margin-right:auto; background-color:transparent;}
+	
+div.contentprincipal{
+	width:1100px; height:auto; min-height:600px; float:left;  background-color:#2B2B2B;}
+	
+	
+div.contentempresa{
+	width:1150px; height:900px; float:center; margin-left:auto; margin-right:auto; background-color:transparent;}
+	
+div.degradefundo{
+	width:100%; height:433px; margin-left:0px; margin-right:0px; float:left; background-image:url(imagens/fundodegrade.jpg); background-repeat:repeat-x; z-index:-1000; top:240px; position:absolute;}
+		
+
+.branco{
+	float:left;}
+	
+	
+	
+/* hs */
+
+h1{
+	color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:16px; text-indent:20px; line-height:50%; text-decoration:none;}	
+	
+h2{
+	color:#6694FF; font-family:Arial, Helvetica, sans-serif; font-size:16px; text-indent:20px; line-height:50%; text-decoration:none;}	
+	
+h3{
+	color:#6694FF; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:100%; text-decoration:none;overflow-y:auto;overflow-x:hidden; height:auto;min-height:32px;
+}	
+	
+
+
+
+
+/* topo */
+
+#headertotal{
+	width:100%; height:242px; text-align:center; margin-left:0px; margin-right:0px; margin-top:0px; background-image:url(imagens/fundotopo.jpg); background-repeat:repeat-x;}
+
+#header{
+	width:1100px; height:242px; display:block; overflow:hidden; float:center; margin-left:auto; margin-right:auto; background-image:url(imagens/headerfundo.jpg); background-repeat:no-repeat;}
+	
+#flashtopo{
+	width:1100px; height:194px; float:center; margin-left:auto; margin-right:auto; display:block; overflow:hidden; background-color:transparent; }	
+	
+	
+
+#menutopo{
+	width:1100px; height:25px; display:block; overflow:hidden; float:left;}	
+	
+.listamenu{
+	width:170px; height:25px; float:left; display:block; overflow:hidden; line-height:25px; text-align:center; }	
+
+.listamenucantoesquerdo{
+	width:170px; height:25px; float:left; display:block; overflow:hidden; line-height:25px; text-align:left; text-indent:85px; margin-left:100px; }/* esse container e usado apenas no primeiro e ultimo item do meu pq o alinhamento do restante esta center, esse esta identado o texto 
+	para o mesmo poder ficar coo no layout */
+
+.listamenucantodireito{
+	width:170px; height:25px; float:left; display:block; overflow:hidden; line-height:25px; text-align:left; text-indent:20px;}/* esse container e usado apenas no primeiro e ultimo item do meu pq o alinhamento do restante esta center, esse esta identado o texto 
+	para o mesmo poder ficar coo no layout */	
+		
+	
+.divisorlistamenu{
+	width:12px; height:25px; float:left; display:block; background-image:url(imagens/divisormenu.jpg); background-repeat:no-repeat;
+	}
+	
+	
+	
+
+
+
+a.menu{
+	font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; text-decoration:none; text-align:center;}
+	
+a.menu:link{
+	font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; text-decoration:none;}
+	
+a.menu:hover{
+	font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#6693FF; text-decoration:none;}
+	
+	
+/* fim do header e inicio do rodape */
+
+#totalfooter{
+	width:100%; height:120px; margin-left:0px; margin-right:0px; background-image:url(imagens/fundofooter.jpg); background-repeat:repeat-x;}
+
+#footer{
+	width:1100px; height:120px; float:center; margin-left:auto; margin-right:auto;}	
+	
+
+
+
+#containermenufooter{ width:800px; height:120px; float:left; display:block; color:#999999; overflow:hidden;
+	}		
+
+
+/* nav footer */
+#menufooter{
+	width:800px; height:30px; margin-top:15px; float:left; display:block; line-height:50px; text-align:left; color:#999999;} 
+	
+	
+	
+#menufooter ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+	height:30px;
+    background-color:transparent;
+    list-style:none;
+}	
+	
+	
+1
+	
+#menufooter ul li { display: inline; }	
+
+
+#menufooter ul li a {
+    padding: 2px 15px;
+    float:left;
+	height:30px; line-height:30px;
+    /* visual do link */
+    background-color:transparent;
+    color:#999999;
+    text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px;
+	border-right-width:1px; border-right-color:#999999; border-right-style:solid;
+}
+
+#menufooter ul li a:hover {
+    padding: 2px 15px;
+    float:left;
+	height:30px; line-height:30px;
+    /* visual do link */
+    background-color:transparent;
+    color:#999999;
+    text-decoration: underline;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px;
+}
+
+	
+/* menu da footer, do rodape */	
+#copright{
+	width:800px; height:30px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#999999; text-align:left; margin-top:20px; text-indent:10px;}	
+					
+	
+/* menu da footer, do rodape */
+	
+
+#containercreditostudio{
+	width:300px; height:120px; float:left; display:block; overflow:hidden;}
+	
+#flashstudio{
+	width:300px; height:100px; float:left; display:inline; overflow:hidden; margin-bottom:20px;}	
+	
+	
+	
+/* ***********************************  home **********************************************/	
+
+.divisorcategoriaesquerda{
+	width:810px; height:10px; float:left; display:block;}
+
+#flashinicio{
+	width:1100px; float:left; height:330px; margin-top:23px; overflow:hidden; display:block;}	
+	
+#colunaesquerdainicial{
+	width:810px; height:604px; float:left; display:block; overflow:hidden;}
+	
+#colunadireitainicial{
+	width:290px; height:604px; float:left; display:block; overflow:hidden;}	
+	
+#noticiasrecentes{
+	width:800px; height:280px; float:left; display:inline; overflow:hidden; margin-top:15px; margin-right:10px;
+	}					
+
+.linhasnoticiasrecentes{
+	width:800px; height:115px; float:left; display:block; overflow:hidden; padding-right:10px;}	
+	
+.divisornoticiasrecentes{
+	width:561px; height:7px; float:left; display:block;}	
+	
+	
+
+.noticiasrecentes{
+	width:800px; height:115px; display:inline; float:left; overflow:hidden; margin-left:20px;background-color:#444444; padding-right:10px;}	
+	
+.fotonoticiasrecentes{
+	width:133px; height:96px; float:left; display:block; overflow:hidden; padding:10px;}	/* 20 a menos de padding */
+	
+.descricaonoticiasrecentes{
+	width:600px; height:110px; float:left; display:block; overflow:hidden; padding-left:10px; padding-right:16px; padding-top:5px; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; text-align:justify; font-size:12px; }	/* atencao, paddings */
+
+
+
+
+
+
+.mais{
+   width:73px; height:40px; float:left; text-align:center; line-height:40px; overflow:hidden;}
+
+.titulocategoria{
+	width:810px; height:40px; float:left; display:block; overflow:hidden; line-height:40px; text-align:left; text-indent:25px;}	
+
+.nomecategoria{
+	width:750px; height:40px; float:left; display:block; overflow:hidden; line-height:40px;}	
+	
+
+	
+	
+
+#novidades{
+	width:810px; height:175px; float:left; display:block; overflow:hidden;}	
+	
+.linhasnovidades{
+	width:810px; height:58px; float:left; display:block; overflow:hidden;}
+	
+.novidades{
+	width:759px; height:43px; float:left; display:inline; overflow:hidden; margin-left:20px; margin-right:11px; padding-left:10px; padding-right:10px; padding-top:5px;font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;
+	 text-align:justify; font-size:12px; background-color:#444444;}
+	/* atencao aos paddings */		
+	
+.divisornovidades{
+	width:561px; height:10px; float:left; display:block; overflow:hidden;}	
+	
+	
+
+
+#cartoesinicial{
+	width:561px; height:200px; float:left; display:block; overflow:hidden;
+	}	
+	
+.linhascartoes{
+	width:561px; height:125px; float:left; display:block; overflow:hidden; margin-bottom:9px;}	
+	
+#flashcartaoinicial{
+	width:259px; height:125px; margin-left:20px; margin-right:12px; display:inline; float:left;
+	}
+
+#soliciteorcamento{
+	width:239px; height:105px; margin-right:11px; float:left; display:inline; background-color:#444444; padding:10px; text-align:left; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:18px;}		
+	
+#soliciteorcamento2{
+	width:221px; height:105px; margin-left:11px; margin-top:15px; float:left; display:inline; background-color:#444444; padding:10px; text-align:left; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px;}		
+	
+	
+
+#depoimentosinicial{
+	width:290px; height:301px; float:left; display:block; overflow:hidden; margin-top:15px;}	
+	
+.titulodepoimentosinicial{
+	width:290px; height:40px;  float:left; display:block; overflow:hidden; line-height:40px; text-align:left; text-indent:25px;}	
+	
+#escritadepoimento{
+	width:260px; height:178px; float:left; display:block; overflow:hidden; background-image:url(imagens/fundodepoimentoinicial.jpg); background-repeat:no-repeat; padding:10px; padding-right:20px; line-height:200%; font-family:Arial, Helvetica, sans-serif; font-size:18px;
+	color:#FFFFFF;}	
+	
+#confiradepoimento{
+	width:290px; height:61px; float:left; display:block; overflow:hidden; background-image:url(imagens/confiradepoimento.jpg); background-repeat:no-repeat; line-height:61px; text-align:left; text-indent:10px;}	
+	
+.linktodosdepoimentos{
+	text-decoration:none; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+#medalha20anos{
+	width:290px; height:201px; float:left; display:inline; overflow:hidden; margin-top:80px; }	
+	
+	
+a.sublinhado{
+	text-decoration:none; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+	
+a.sublinhado:link{
+	text-decoration:none; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;}
+	
+a.sublinhado:hover{
+	text-decoration:underline; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;}					
+	
+	
+	
+	
+	
+	
+/* ***********************************  empresa **********************************************/	
+
+#tituloinstitucional{
+	width:1100px; height:50px; float:left; display:block; overflow:hidden; line-height:50px; margin-top:15px;}
+	
+
+#colunaesquerdaempresa{
+	width:666px; height:auto; min-height:610px; float:left; display:block; overflow:hidden;}	
+	
+#colunadireitaempresa{
+	width:434px; height:auto; min-height:610px; float:left; display:block; overflow:hidden;}		
+	
+	
+.titulocolunaesquerdaempresa{
+	width:666px; height:29px; float:left; display:block; overflow:hidden; line-height:29px; text-indent:20px;}
+	
+.textocolunaesquerdaempresa{
+	width:600px; height:auto; min-height:76px; float:left; display:inline; overflow:hidden; padding-left:40px; padding-right:26px; padding-top:10px; padding-right:10px; color:#FFFFFF; font-size:14px; 
+	font-family:Arial, Helvetica, sans-serif; text-align:justify; line-height:220%; margin-bottom:15px; text-align:justify;} 
+	
+
+
+.fotocolunadireitaempresa{
+	width:412px; height:254px; float:left; display:inline; overflow:hidden; margin-right:22px; margin-top:15px; margin-bottom:36px;}
+	
+.fotoduplacolunadireita{
+	width:412px; height:148px; float:left; display:block; overflow:hidden;}
+
+#fotodireita1{
+	width:196px; height:148px; float:left; margin-right:10px; display:inline; overflow:hidden;}	
+	
+#fotodireita2{
+	width:196px; height:148px; float:left; margin-left:10px; display:inline; overflow:hidden;}	
+
+
+.riscofotoempresa{
+	width:412px; height:5px; background-color:#000000; float:left; display:inline; margin-right:22px;}				
+	
+	
+/* ***********************************  projetos **********************************************/		
+	
+#partecima{
+	width:1100px; min-height:610px; height:auto; float:left; display:block; overflow:hidden;}	
+	
+
+#partebaixo{
+	width:1100px; min-height:201px; margin-top:40px; height:auto; float:left; display:block; overflow:hidden;}
+
+
+#colunaesquerdaprojeto{
+	width:271px; height:610px; float:left; display:block; overflow:hidden;
+	}	
+	
+#colunadireitaprojeto{
+	width:829px; min-height:610px; min-height:auto; float:left; display:block; overflow:hidden;
+}	
+	
+	
+.divisorprojetos{
+	width:829px; height:10px; float:left;}	
+	
+
+#menuprojetos{
+	width:243px; height:523px; float:left; display:block; overflow:hidden; background-color:#444444; margin-left:28px; margin-top:20px; margin-bottom:67px;}
+	
+.titulomenuprojetos{
+	width:243px; height:38px; line-height:38px; float:left; display:block; overflow:hidden; text-align:left; text-indent:20px;}	
+	
+.caixamenu{
+	width:223px; height:25px; float:left; display:inline; overflow:hidden; text-align:left; padding-left:20px; line-height:25px;}/* atencao ao padding */
+	
+a.menuprojeto{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}	
+	
+a.menuprojeto:link{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+	
+a.menuprojeto:hover{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#6694FF; text-decoration:underline;}				
+	
+.riscomenuprojeto{
+	width:243px; height:4px; float:left; display:block; overflow:hidden; background-image:url(imagens/risco.jpg); background-repeat:no-repeat;}		
+	
+/* iframe de projetos */	
+
+#tituloprojeto{
+	width:1100px; height:50px; float:left; display:block; overflow:hidden; line-height:50px; margin-top:15px;}	
+
+.titulocolunadireitaprojeto{
+	width:829px; height:40px; text-align:left; text-indent:20px;  margin-top:30px;}		
+	
+.descricacategoriaprojeto{
+	width:749px; min-height:60px; height:auto; float:left; display:block; overflow:hidden; padding-left:20px; padding-right:60px; text-align:justify; color:#FFFFFF; line-height:220%; font-size:14px; font-family:Arial, Helvetica, sans-serif; 
+	}
+	
+.linhasprojetos{
+	width:780px; min-height:128px;height:auto; float:left; display:inline; overflow:hidden; padding-left:26px; padding-right:23px;}	
+	
+.projeto{
+	width:120px; min-height:146px;height:auto; float:left; display:block; }	
+	
+.fotoprojeto{
+	width:120px; height:88px; margin-top:8px; float:left; overflow:hidden; display:inline;}	
+	
+.descricaoprojeto{
+	width:120px; min-height:60px;height:auto;float:left; display:block;font-family:Arial, Helvetica, sans-serif; font-size:10px; text-align:center; color:#FFF;line-height:150%}	
+	
+.divisorprojeto{
+	width:35px; height:128px; float:left;}	
+	
+.paginacaoiframe{
+	width:829px; height:34px; float:left; text-align:center; line-height:34px;}	
+
+.numerospaginacao{	
+ color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:16px; text-decoration:none;}
+ 
+#lerdepoimentos{
+	width:829px; height:24px; float:left; display:block; overflow:hidden; text-align:left; text-indent:20px; line-height:24px;} 
+.escritalerdepoimentos{
+	text-decoration:none; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:14px;}	
+	
+#medalha20anosprojeto{
+	width:290px; height:201px; float:left; display:inline; overflow:hidden; }		
+	
+
+/* ***********************************  depoimentos ********************************************* */		
+
+#containerdepoimento{
+	width:1100px; height:348px; float:left; display:block; overflow:hidden;}
+	
+.titulocontainerdepoimento{
+	width:1100px; height:40px; float:left; line-height:40px; display:block; overflow:hidden; }	
+	
+.fotodepoimento{
+	width:254px; height:189px; float:left; display:inline; overflow:hidden; margin-left:25px; margin-top:13px; margin-right:19px; margin-bottom:106px;}	
+	
+.escritadepoimento{
+	width:772px; height:308px; float:left; display:block; overflow:hidden; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:150%; text-align:justify; padding-top:10px;}	
+	
+.voltardepoimento{
+	width:1080px; height:40px; float:left; line-height:40px; display:block; overflow:hidden; text-align:right; padding-right:20px; }	
+	
+	
+.galeriadepoimentos{
+	width:851px; height:124px; float:left; display:block; overflow:hidden;}	
+	
+.titulogaleriadepoimentos{
+	width:1100px; height:40px; line-height:40px; text-align:left; text-indent:20px;}	
+	
+.linhafotos{
+	width:1072px; height:84px; float:left; display:block; overflow:hidden; padding-left:28px;}	/* padding */
+	
+.fotogaleriadepoimento{
+	width:94px; height:84px; float:left; display:block; overflow:hidden; display:block;
+	}	
+	
+.divisordepoimento{
+	width:11px; height:84px; float:left; display:block; overflow:hidden;
+	}	
+	
+
+/* ***********************************  depoimentos lista  ********************************************* */		
+
+.titulodepoimentos{
+	width:1100px; height:40px; float:left; display:block; overflow:hidden; line-height:40px; text-align:left; text-indent:20px;}		
+	
+	
+.itensdepoimentos{
+	width:1070px; height:116px; float:center; display:block; overflow:hidden; float:center; margin-left:auto; margin-right:auto; background-color:#444444; margin-bottom:8px;}	
+	
+.fotoitensdepoimentos{
+	width:134px; height:96px; float:left; display:block; overflow:hidden; padding:10px;}/* atencao padding */	
+	
+.descricaoitensdepoimentos{
+	width:877px; height:96px; float:left; display:block; overflow:hidden; padding:10px; text-align:justify; color:#FFF; font-size:14px; line-height:150%; font-family:Arial, Helvetica, sans-serif;
+	}	
+	
+.depoimentosemfoto{
+	width:1030px; height:96px; float:left; display:block; overflow:hidden; padding:10px; padding-right:30px;text-align:justify; color:#FFF; font-size:14px; line-height:150%; font-family:Arial, Helvetica, sans-serif;}
+	
+.paginacaodepoimentos{
+	width:1100px; height:40px; float:left; text-align:center; line-height:34px;}		
+	
+	
+/* *********************************** pagina de contato  ********************************************* */		
+
+.titulocontato{
+	width:1100px; height:40px; float:left; display:block; overflow:hidden; text-align:left; text-indent:20px; margin-top:15px; line-height:40px; font-family:Arial, Helvetica, sans-serif;}	
+	
+#containercontato{
+	width:500px; height:459px; float:left; display:inline; overflow:hidden; margin-left:20px; margin-right:20px; margin-top:19px; background-color:#444444; padding-left:20px; padding-top:20px; text-align:left; font-family:Verdana, Geneva, sans-serif; color:#FFFFFF; font-size:14px; margin-right:87px;}	/* 287 pixels sobrando */
+	
+.inputcontato{
+	max-width:450px; min-width:450px; min-height:30px; max-height:30px;
+	border-radius:5px;
+	-moz-border-radius-top:5px;
+	-moz-border-radius-right:5px;
+	-moz-border-radius-left:5px;
+	-moz-border-radius-bottom:5px;
+	
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-top-radius:5px;
+	-webkit-border-bottom-bottom-radius:5px;
+	}
+	
+	.inputcontato2{
+	min-width:450px; height:90px;
+	max-height:90px; max-width:450px;
+	border-radius:5px;
+	-moz-border-radius-top:5px;
+	-moz-border-radius-right:5px;
+	-moz-border-radius-left:5px;
+	-moz-border-radius-bottom:5px;
+	
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-top-radius:5px;
+	-webkit-border-bottom-bottom-radius:5px;
+	}
+	
+	
+#enviar{
+	width:94px; height:26px; float:left; background-color:#666666; border-width:0px; margin-right:20px; color:#FFFFFF;}	
+	
+#reset{
+	width:94px; height:26px; float:left; background-color:#666666; border-width:0px; margin-right:20px; color:#FFFFFF;}		
+
+	
+#contatodireita{
+	width:450px; height:469px; float:left; display:block; overflow:hidden; margin-top:19px; padding-right:20px; text-align:right; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; }	
+	
+#endereco{
+	width:450px; height:172px; float:left; display:block; overflow:hidden; color:#FFFFFF; text-align:right; font-size:14px; line-height:150%; font-family:Verdana, Geneva, sans-serif; padding-left:10px; padding-top:15px;}	
+	
+	
+#mapa{
+	width:500px; height:286px; float:left; display:block; overflow:hidden; background-color:#444444; margin-left:20px; margin-top:11px; margin-right:13px; margin-bottom:22px; padding:10px;}	
+	
+#logomapa{
+	width:250px; height:181px; float:right; display:inline; overflow:hidden; margin-top:70px; margin-bottom:70px; background-image:url(imagens/logomapa.jpg); background-repeat:no-repeat;}	
+	
+#flashcartaocontato{
+	width:221px; height:125px; margin-left:11px; display:inline; float:left; margin-top:10px;
+	}	
+	
+	
+/* orcamentos */
+/* estrutura menor para caber o orcamento, nas outras paginas é apenas content */
+div.contentorcamentofull{
+	width:1150px; height:800px; float:center; margin-left:auto; margin-right:auto; background-color:transparent;}
+
+div.contentorcamento{
+	width:1100px; height:auto; min-height:750px; float:left;  background-color:#2B2B2B;}
+
+div.orcamento{
+	width:600px; padding-left:50px; padding-right:50px; padding-top:20px; float:left; display:block; overflow:hidden; height:auto; min-height:700px; text-align:left; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#444444; margin-left:50px;}	
+	
+div.orcamentolado{
+	width:259px; height:700px; float:left; display:block; padding-left:46px; padding-right:45px;}	
+	
+#tituloorcamento{
+	width:1100px; height:50px; float:left; display:block; overflow:hidden; margin-top:15px;}	
+	
+.inputorcamento{
+	max-width:500px; min-width:500px; max-height:15px; min-height:15px;
+	
+	border-radius:5px;
+	-moz-border-radius-top:5px;
+	-moz-border-radius-right:5px;
+	-moz-border-radius-left:5px;
+	-moz-border-radius-bottom:5px;
+	
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-top-radius:5px;
+	-webkit-border-bottom-bottom-radius:5px;}	
+	
+.inputorcamento2{
+	max-width:500px; min-width:500px; max-height:80px; min-height:80px;
+	border-radius:5px;
+	-moz-border-radius-top:5px;
+	-moz-border-radius-right:5px;
+	-moz-border-radius-left:5px;
+	-moz-border-radius-bottom:5px;
+	
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-top-radius:5px;
+	-webkit-border-bottom-bottom-radius:5px;}		
+	
+	
+			
