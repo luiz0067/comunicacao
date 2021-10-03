@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+				img{ behavior: url("pngbehavior.htc");}
+				body{
+					margin-top:0px;
+					margin-left:0px;
+					margin-right:0px;
+					margin-bottom:0px;
+					pading-top:0px;
+					pading-left:0px;
+					pading-right:0px;
+					pading-bottom:0px;
+					width:100%;
+					min-height:100%;				
+					height:auto;				
+				}
+				div{
+					margin-top:0px;
+					margin-left:0px;
+					margin-right:0px;
+					margin-bottom:0px;
+					pading-top:0px;
+					pading-left:0px;
+					pading-right:0px;
+					pading-bottom:0px;
+				}
+				iframe{
+					margin-top:0px;
+					margin-left:0px;
+					margin-right:0px;
+					margin-bottom:0px;
+					pading-top:0px;
+					pading-left:0px;
+					pading-right:0px;
+					pading-bottom:0px;
+				}
+				div.centro{
+					margin-left:auto;
+					margin-right:auto;
+					float:center;
+					text-align:center;
+					display:block;
+					clear:both;
+				}
+				div.linha{
+					clear:both;
+					width:100%;
+					display:block;
+					text-align:center;
+					float:center;
+				}
+				#tudo{
+					margin-left:auto;
+					margin-right:auto;
+					height:400px;
+					float:center;
+					text-aling:center;
+					clear:both;
+					min-height:100%;
+					height:auto;
+					width:100%;
+				}
+				divs{
+					border-style:solid;
+					border-width:1px;
+					border-color:black;
+				}
+				@font-face {
+					font-family: 'eurostile';		
+					src:  url('../Fontes/Eurosti.TTF') format('truetype');
+					_src: url('../Fontes/Eurosti.eot');
+					font-weight: normal; 
+					font-style: normal; 	 				
+				}
+				@font-face {
+					font-family: 'essai';				
+					src:  url('../Fontes/essai.ttf') format('truetype');
+					_src: url('../Fontes/essai.eot');
+					font-weight: normal; 
+					font-style: normal; 				
+				}
+				@font-face {					
+					font-family: 'hemihead';
+					src:  url('../Fontes/hemihead.ttf') format('truetype'), url('../Fontes/hemihead.svg') format('svg');
+					_src: url('../Fontes/hemihead.eot');
+					font-weight: normal;
+					font-style: normal;				
+				}	
+				div.foto_miniatura{
+					height:124px;
+					width:134px;
+					background-color:#FFFFFF;
+					display:block;
+					float:left;
+					margin-top:10px;
+					margin-left:3px;
+					margin-right:3px;
+					-moz-border-radius-topleft:5px;
+					-moz-border-radius-topright:5px;
+					-moz-border-radius-bottomleft:5px;
+					-moz-border-radius-bottomright:5px;
+					
+					-webkit-border-top-left-radius:5px;
+					-webkit-border-top-right-radius:5px;
+					-webkit-border-bottom-left-radius:5px;
+					-webkit-border-bottom-right-radius:5px;
+					
+					-khtml-border-top-left-radius:5px;
+					-khtml-border-top-right-radius:5px;
+					-khtml-border-bottom-left-radius:5px;					
+					-khtml-border-bottom-right-radius:5px;					
+					
+					border-top-left-radius:5px;
+					border-top-right-radius:5px;
+					border-bottom-left-radius:5px;
+					border-bottom-right-radius:5px;
+					border-radius: 5px 5px 5px 5px;
+					behavior:url(./css/PIE_uncompressed.htc);
+					overflow:hidden;
+				}
+				div.botao_esquerda{
+					height:38px;
+					width:38px;
+					background-image:url('../images/anterior.png');
+					float:left;	
+					cursor:default;
+					cursor:hand;
+					display:block;
+					overflow:hidden;
+					behavior:url(./css/pngbehavior.htc);
+				}
+				div.botao_direita{
+					height:38px;
+					width:38px;
+					background-image:url('../images/proximo.png');
+					float:right;	
+					cursor:default;
+					cursor:hand;
+					display:block;
+					overflow:hidden;
+					behavior:url(./css/pngbehavior.htc);
+				}
+				#rolagem{
+					width:714px;
+					height:143px;	
+					overflow:hidden;				
+				}
+				#borda{border-style:solid;boder-width:1px;border-color:#000;}
+				#botoes{
+					position:absolute;
+					float:left;
+					width:680px;
+					_margin-left:-340px;
+					margin-top:90px;
+				}
+
+
+				div.mini_foto{					
+					background-image:url('../images/fundo_mini_produto.jpg');
+					width:24px;
+					height:27px;
+					float:left;
+					background-color:#FFFFFF;
+					cursor:default;
+					cursor:hand;
+				}					
+					
+					
+					
+					
+					
+					
+				#topo{
+					height:133px;
+					background-color:#2C004B;
+				}
+				#canto_logo1{
+					height:93px;
+					width:13px;
+					background-image:url('../images/logo_canto1.jpg');	
+					float:left;	
+				}
+				#logo{
+					height:93px;
+					width:184px;
+					background-image:url('../images/logo.jpg');		
+					float:left;
+				}
+				#canto_logo2{
+					height:93px;
+					width:40px;
+					background-image:url('../images/logo_canto2.jpg');		
+					float:right;
+				}
+				#banner{
+					height:93px;
+					width:671px;
+					background-color:#451970;
+				}
+			
+			
+			
+			
+				#meio {
+					width:100%;
+					display:block;
+				}
+				#mapa {
+					margin-left:auto;
+					margin-right:auto;
+					float:center;
+					text-align:center;
+					display:block;
+					width:691px;
+					}
+				#mapaa {
+					height:60px;
+					float:left;
+					margin-left:0px;
+					font-family:"eurostile";
+					font-size:10px;
+					color:#A2C02F;
+					text-align:left;
+				}	
+					
+					
+			
+				.mapadepercurso1 {					
+					font-family:"eurostile";
+					font-size:10px;
+					color:#666;
+				}	
+					
+				#conteudo {
+					width:700px;
+					height:480px;
+				}
+										
+				#coluna1{
+					float:left;
+					width:464px;
+					font-family:eurostile;
+					font-size:13px;
+					color:#666;	
+					text-align:justify;
+					padding-left:10px;	
+				}
+				#coluna_produtos{
+					float:left;
+					width:203px;
+					font-family:eurostile;
+					font-size:13px;
+					color:#666;	
+					text-align:justify;
+					padding-left:10px;					
+				}					
+				#coluna2 {
+					width:150px;
+					height:370px;
+					float:right;
+					margin-right:0px;
+					text-align:left;
+					font-family:eurostile;
+					font-size:14px;
+					color:#666;
+					
+					}	
+				#artigoo {
+					width:150px;
+					height:auto;
+					float:right;}
+				
+				
+				
+			
+				#formulario {
+					width:350px;
+				
+				 }	
+				
+				
+				
+				.titulo {
+					font-family:eurostile;
+					font-size:20px;
+					text-align:justify;
+					color:#45196F;}
+				
+				
+				.roxo {
+					font-family:"Myriad Pro";
+					font-size:12px;
+					color:#45196F;
+					font-weight:bold;
+					}
+				
+				.voltar { 
+				font-family:eurostile;
+				font-size:14px;
+				color:#A2C02F;
+					}	
+				
+				
+				
+				div.foto_miniatura{
+					height:124px;
+					width:134px;
+					background-color:#FFFFFF;
+					display:block;
+					float:left;
+					margin-top:10px;
+					margin-left:3px;
+					margin-right:3px;
+					-moz-border-radius-topleft:5px;
+					-moz-border-radius-topright:5px;
+					-moz-border-radius-bottomleft:5px;
+					-moz-border-radius-bottomright:5px;
+					
+					-webkit-border-top-left-radius:5px;
+					-webkit-border-top-right-radius:5px;
+					-webkit-border-bottom-left-radius:5px;
+					-webkit-border-bottom-right-radius:5px;
+					
+					-khtml-border-top-left-radius:5px;
+					-khtml-border-top-right-radius:5px;
+					-khtml-border-bottom-left-radius:5px;					
+					-khtml-border-bottom-right-radius:5px;					
+					
+					border-top-left-radius:5px;
+					border-top-right-radius:5px;
+					border-bottom-left-radius:5px;
+					border-bottom-right-radius:5px;
+					border-radius: 5px 5px 5px 5px;
+					behavior:url(./PIE_uncompressed.htc);
+					overflow:hidden;
+				}
+				div.botao{
+					height:38px;
+					width:38px;
+					position:absolute;
+					display:block;
+					behavior:url(./PIE_uncompressed.htc);
+					overflow:hidden;
+				}
+		
+        
+				#artigos {
+					width:140px;
+					height:250px;
+					float:right;
+					margin-right:0px;
+					font-family:eurostile;
+					font-size:12px;
+					color:#666;
+					}	
+				
+				#artigos a {
+					font-family:eurostile;
+					font-size:12px;
+					color:#666;
+					}
+				
+				
+				#artigos a:link {
+					color:#666;
+					}
+				
+				#artigos a:hover {
+					color:#666;
+					}
+				
+				#artigos a:active {
+					color:#A2C02F;
+				}
+				
+				div.arrendondado{
+					
+					behavior:url(./PIE_uncompressed.htc);
+					-moz-border-radius-topleft:15px;
+					-moz-border-radius-topright:15px;
+					-moz-border-radius-bottomleft:15px;
+					-moz-border-radius-bottomright:15px;
+					
+					-webkit-border-top-left-radius:15px;
+					-webkit-border-top-right-radius:15px;
+					-webkit-border-bottom-left-radius:15px;
+					-webkit-border-bottom-right-radius:15px;
+					
+					-khtml-border-top-left-radius:15px;
+					-khtml-border-top-right-radius:15px;
+					-khtml-border-bottom-left-radius:15px;					
+					-khtml-border-bottom-right-radius:15px;					
+					
+					border-top-left-radius:15px;
+					border-top-right-radius:15px;
+					border-bottom-left-radius:15px;
+					border-bottom-right-radius:15px;
+					border-radius: 15px 15px 15px 15px;
+				}
+				#menu_evolution {
+					width:150px;
+					height:268px;
+					float:left;
+					text-align:left;
+					font-family:eurostile;
+					font-size:14px;
+					color:#666;
+					background-image:url(../images/fundoverde.gif);
+					background-repeat:no-repeat;
+					color:#FFF;
+					text-align:center;
+				}	
+				#rodape{
+						position: absolute;
+						
+						bottom: 0px;
+						z-index: 10;
+						width: 100%;												
+						
+					}
